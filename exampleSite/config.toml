@@ -1,7 +1,7 @@
 ################################# Default configuration ###################
 baseURL = "http://examplesite.org"
 title = "Airspace | Creative Agency Hugo Template"
-theme = "airspace-hugo"
+theme = "studio"
 themesDir = "../.."
 # post pagination
 paginate = "4"
@@ -38,7 +38,7 @@ link = "plugins/magnific-popup/magnific-popup.min.css"
 attributes = ""
 
 [[params.plugins.css]]
-link = "plugins/slick/slick.css"
+link = "plugins/slick/slick.min.css"
 attributes = ""
 
 # JS Plugins

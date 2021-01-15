@@ -3,7 +3,7 @@
 ==================================================================*/
 
 .blog {
-  background: #F6F6F6;
+  background: #f6f6f6;
 }
 
 .post {
@@ -50,7 +50,7 @@
         color: #909090;
         margin-right: 20px;
         font-size: 12px;
-        letter-spacing: .5px;
+        letter-spacing: 0.5px;
 
         a {
           color: #909090;
@@ -106,14 +106,14 @@
 .post-pagination {
   margin-top: 70px;
 
-  >li {
+  > li {
     margin: 0 2px;
     display: inline-block;
     font-size: 14px;
 
-    >a {
+    > a {
       color: $black;
-      @include transition (all, 0.3s, ease);
+      @include transition(all, 0.3s, ease);
 
       &:hover {
         color: $light;
@@ -122,14 +122,14 @@
       }
     }
 
-    &.active>a {
+    &.active > a {
       background: $primary-color !important;
       border: 1px solid $primary-color !important;
     }
   }
 
-  >li:first-child>a,
-  >li:last-child>a {
+  > li:first-child > a,
+  > li:last-child > a {
     border-radius: 0;
   }
 }
