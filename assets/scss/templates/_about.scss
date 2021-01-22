@@ -1,29 +1,36 @@
-.about{
-	.block{
-		
-		h2{
-			padding-top: 35px;
-			margin:0;
-		}
-		p{
-			padding-top: 20px;
-			line-height:28px;
-		}
-		img{
-			width: 100%;
-		}
-	}
-	.about-img {
-		overflow:hidden;
-		&:hover img {
-			transform: scale3D(1.1,1.1,1);
-		}
-		img {
-			opacity: .6;
-			@include transition (all, 0.5s, ease-out);
-		}
-	}
-	.section-title {
-		margin-bottom: 0px;
-	}
+.about {
+  .about-vcenter {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  .block {
+    padding-bottom: 1rem;
+    h2 {
+      padding-top: 1rem;
+      margin: 0;
+    }
+    p {
+      padding-top: 1rem;
+    }
+    img {
+      width: 100%;
+    }
+    .section-title {
+      margin-bottom: 0px;
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .about-img {
+    overflow: hidden;
+    &:hover img {
+      transform: scale3D(1.1, 1.1, 1);
+    }
+    img {
+      opacity: 0.6;
+      @include transition(all, 0.5s, ease-out);
+    }
+  }
 }
