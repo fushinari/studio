@@ -8,8 +8,7 @@
 
 .post {
   background: $light;
-  margin-bottom: 40px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 
   .post-media {
     &.post-thumb {
@@ -97,17 +96,16 @@
 
     .btn-main {
       padding: 10px 20px;
-      margin: 15px 0;
       font-size: 12px;
     }
   }
 }
 
 .post-pagination {
-  margin-top: 70px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 
   > li {
-    margin: 0 2px;
     display: inline-block;
     font-size: 14px;
 

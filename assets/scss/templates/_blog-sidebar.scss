@@ -1,6 +1,5 @@
 .widget {
-  margin-bottom: 30px;
-  padding-bottom: 35px;
+  padding-bottom: 1rem;
 
   .widget-title {
     margin-bottom: 15px;
@@ -62,6 +61,8 @@
 
   // Tag Cloud
   &.widget-tag {
+    padding-bottom: 2rem;
+
     ul {
       li {
         margin-bottom: 10px;
@@ -87,4 +88,14 @@
     }
   }
 
+}
+
+.sidebar{
+  .widget {
+    .media-body {
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
 }
