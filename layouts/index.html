@@ -5,8 +5,9 @@
 <!-- banner -->
 {{ if $data.homepage.banner.enable }}
 {{ with $data.homepage.banner }}
-<section class="slider {{if .bg_overlay}}overly{{end}}" style="background-image: url('{{ .bg_image | absURL }}');">
-  <div class="container">
+<section class="home-slider">
+  {{ range .home_slider }}
+  <div class="slider {{if .bg_overlay}}overly{{end}}"  style="background-image: url('{{ .bg_image | absURL }}');">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
@@ -21,6 +22,7 @@
       </div>
     </div>
   </div>
+  {{ end }}
 </section>
 {{ end }}
 {{ end }}
