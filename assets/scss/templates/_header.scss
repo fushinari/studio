@@ -7,6 +7,22 @@ header {
     margin-bottom: 0px;
     border: 0px;
   }
+  .navbar.color-changed {
+    background-color: rgba(0, 0, 0, 0.9)!important;
+    box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
+  }
+  .navbar-dark {
+    .nav-item.dropdown-item {
+      color: rgba(0, 0, 0, 0.8)!important;
+    }
+    .navbar-nav {
+      li {
+        a {
+          color: rgba(255, 255, 255, 0.8)!important;
+        }
+      }
+    }
+  }
   .navbar-light {
     background: none;
     border: 0px;
@@ -21,4 +37,15 @@ header {
       }
     }
   }
+}
+
+html:not([data-scroll='0']) {
+
+  header {
+    .bg-transparent {
+      background-color: rgba(0, 0, 0, 0.9)!important;
+      box-shadow: 0 0 .5em rgba(0, 0, 0, .5);
+    }
+  }
+  
 }
