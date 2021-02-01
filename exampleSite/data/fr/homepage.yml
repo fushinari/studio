@@ -92,20 +92,20 @@ funfacts:
     # testimonial item loop
     - name : "Raymond Roy"
       image : "images/clients/avater-1.jpg"
-      designation : "CEO-Themefisher"
+      designation : "CEO"
       content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
                 ideas we feel that our site has unique elements that make us stand out from the crowd."
                 
     # testimonial item loop
     - name : "Randi Renin"
       image : "images/clients/avater-1.jpg"
-      designation : "CEO-Themefisher"
+      designation : "CEO"
       content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
                 ideas we feel that our site has unique elements that make us stand out from the crowd."
                 
     # testimonial item loop
     - name : "Rose Rio"
       image : "images/clients/avater-3.jpg"
-      designation : "CEO-Themefisher"
+      designation : "CEO"
       content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
                 ideas we feel that our site has unique elements that make us stand out from the crowd."

@@ -79,7 +79,7 @@ logo = "images/logo.png"
 logo_width = "150px"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "Mufeed Ali"
 # Contact Information
 mobile = "0124857985320"
 email = "demo@email.com"
@@ -148,7 +148,7 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 # copyright
-copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
+copyright = "Copyright &copy; 2021 [Mufeed Ali](https://github.com/fushinari) All Rights Reserved"
 
 
 ######################### english navigation #############################
@@ -237,7 +237,7 @@ languageCode = "fr-fr"
 contentDir = "content/french"
 weight = 2
 # copyright
-copyright = "Copyright &copy; 2020 [Themefisher](https://themefisher.com) All Rights Reserved"
+copyright = "Copyright &copy; 2021 [fushinari](https://github.com/fushinari) All Rights Reserved"
 
 
 ######################### france navigation #############################

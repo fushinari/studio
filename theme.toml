@@ -1,19 +1,17 @@
 # theme.toml for the Airspace Hugo theme
 
-name = "Airspace Hugo"
+name = "Studio"
 license = "MIT"
-licenselink = "https://github.com/themefisher/airspace-hugo/blob/master/LICENSE"
-description = "Hugo port of the Themefisher’s Airspace theme"
-homepage = "https://gethugothemes.com/products/airspace-hugo-theme/"
+licenselink = "https://github.com/fushinari/studio/blob/master/LICENSE"
+description = "A fork of Themefisher’s Airspace Hugo theme"
 tags = ["blog",'google-analytics', 'fast', 'modern', 'minimal', 'minimalistic', 'business', 'agency-template', 'white', 'light', 'multilingual', "bootstrap", "company", "portfolio", "projects", "responsive", "themefisher", "gethugothemes"]
 features = ["blog", "company", "responsive", "seo-friendly"]
 min_version = "0.64.0"
 
 [author]
-  name = "Themefisher"
-  homepage = "https://themefisher.com/"
+  name = "Mufeed Ali"
+  homepage = "https://github.com/fushinari"
 
 [original]
-  name = "Airspace"
-  homepage = "https://themefisher.com/products/airspace-free-bootstrap-website-template/"
-  repo = "https://github.com/themefisher/airspace-free-html5-agency-template"
+  name = "Studio"
+  repo = "https://github.com/fushinari/studio"

@@ -17,15 +17,15 @@
         {{ if .HasChildren }}
         <li class="nav-item dropdown">
           <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-            aria-expanded="false">{{ .Name }}</a>
+            aria-expanded="false">{{ .Name | upper}}</a>
           <ul class="dropdown-menu">
             {{ range .Children }}
-            <li><a class="nav-item dropdown-item" href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+            <li><a class="nav-item dropdown-item" href="{{ .URL | relLangURL }}">{{ .Name | upper }}</a></li>
             {{ end }}
           </ul>
         </li>
         {{ else }}
-        <li><a class="nav-item nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+        <li><a class="nav-item nav-link" href="{{ .URL | relLangURL }}">{{ .Name | upper }}</a></li>
         {{ end }}
         {{ end }}
 
