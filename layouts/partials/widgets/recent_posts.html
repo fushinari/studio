@@ -1,14 +1,20 @@
 <div class="widget widget-latest-post">
-    <h4 class="widget-title">{{ i18n "latest_posts" }}</h4>
-    {{ range first 4 (where site.Pages "Type" "post") }}
-    <div class="media border p-2 my-2 page-link">
-      <a class="pull-left pr-2" href="{{ .Permalink }}">
-        <img class="media-object" src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
-      </a>
-      <div class="media-body">
-        <h4><b><a href="{{ .Permalink }}">{{ .Title }}</a></b></h4>
-        <p>{{ .Summary | truncate 35 }}</p>
-      </div>
+  <h4 class="widget-title">{{ i18n "latest_posts" }}</h4>
+  {{ range first 4 (where site.Pages "Type" "post") }}
+  <div class="media border p-2 my-2 page-link">
+    <a class="pull-left pr-2" href="{{ .Permalink }}">
+      <img
+        class="media-object"
+        src="{{ .Params.Image | relURL }}"
+        alt="{{ .Title }}"
+      />
+    </a>
+    <div class="media-body">
+      <h4>
+        <b><a href="{{ .Permalink }}">{{ .Title }}</a></b>
+      </h4>
+      <p>{{ .Summary | truncate 35 }}</p>
     </div>
-    {{ end }}
   </div>
+  {{ end }}
+</div>
